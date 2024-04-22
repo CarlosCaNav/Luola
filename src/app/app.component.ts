@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { DatosService } from './datos.service'; /* esto escrito a mano */
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'luola';
+ 
+  constructor(public DatosService: DatosService) {}
+
+  holi = 1;
 }

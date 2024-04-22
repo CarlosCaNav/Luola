@@ -1,0 +1,44 @@
+.todo {
+    position: absolute;
+    z-index: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow: hidden;
+}
+
+.nave {
+    z-index: 3;
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    transition-duration: 200ms;
+}
+
+.suelo {
+    position: absolute;
+    z-index: 1;
+    background-color: green;
+    height: 105px;
+    width: 100vw;
+    margin-top: calc(100vh - 100px);
+    box-shadow: inset -10px 80px 100px rgb(0, 0, 0);
+}
+
+.bala {
+    position: absolute;
+    z-index: 2;
+    height: 5px;
+    width: 5px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.UFO {
+    position: absolute;
+    z-index: 3;
+    height: 64px;
+    width: 128px;
+    transition: 1200ms;
+    background-size: 100% 100%;
+}
