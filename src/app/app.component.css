@@ -39,6 +39,6 @@
     z-index: 3;
     height: 64px;
     width: 128px;
-    transition: 1200ms;
+    transition: 200ms;
     background-size: 100% 100%;
 }
